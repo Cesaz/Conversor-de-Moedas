@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Conversor de Moedas</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+  <h1 class="page-title">
+    CONVERSOR DE MOEDAS
+  </h1>
+  <p class="page-subtitle">
+    Converta diferentes moedas
+  </p>
+  <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
+  <label for="moeda">DE:</label>
+  <section class=primeiraS>
+    <section class=primeiraS>
+      <select id=moedaOrigem class="moedaOrigem" name="moedaOrigem">
+        <option value="brl">Real (R$)</option>
+        <option value="usd">Dolar (US$)</option>
+        <option value="eur">Euro (€)</option>
+        <option value="jpy">Iene (¥)-(円)</option>
+        <option value="krw">Won Sul-Coreano (₩)</option>
+        <option value="cny">Renminbi/Yuan (¥)-(元)</option>
+      </select>
+    </section>
+    <label class=moeda2 for="moeda2">PARA:</label>
+    <section class=segundaS>
+      <select id=moedaDestino class="moedaDestino" name="moedaDestino">
+        <option value="usd">Dolar (US$)</option>
+        <option value="eur">Euro (€)</option>
+        <option value="jpy">Iene (¥)-(円)</option>
+        <option value="krw">Won Sul-Coreano (₩)</option>
+        <option value="cny">Renminbi/Yuan (¥)-(元)</option>
+        <option value="brl">Real (R$)</option>
+      </select>
+    </section>
+    <input type="number" id="valorDigitado" placeholder="Digite o valor" size="2" /><br>
+    <button type="submit" onclick="conversao()">Converter</button>
+
+    <h2 id="valorConvertido">Aguardando</h2>
+</div>
+<a href="https://alura.com.br/" target="_blank">
+  <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

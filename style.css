@@ -1,0 +1,87 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 400px;
+  background-color: #121236;
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 100px;
+  position: absolute;
+  top: 35px;
+  right: 10px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+input {
+  margin: 12px;
+  padding: 6px;
+  border-radius: 10px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+label {
+  color: white;
+}
+
+button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 12px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+h2 {
+  background-color: green;
+  color: black;
+  font-size: 25px;
+  border-radius: 10px;
+  border: 1px solid black;
+  width: 170px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.moedaOrigem {
+  border-radius: 10px;
+  border: 1px solid black;
+  text-align: center;
+  cursor: pointer;
+}
+
+.moedaDestino {
+  border-radius: 10px;
+  border: 1px solid black;
+  text-align: center;
+  cursor: pointer;
+}
